@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/home_navigation_email"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_70_140"
+        android:onClick="onViewClick" >
+        <TextView
+            android:id="@+id/home_navigation_email_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dimen_10_20"
+            android:layout_marginRight="@dimen/dimen_10_20"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:text="abcss@yahoo.com"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_20_40" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_5_10"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_navigation_bg_space" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/option_left_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/left_menu_inbox"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen_55_110"
+                android:onClick="onViewClick" >
+
+                <ImageView
+                    android:id="@+id/icon_left_menu_inbox"
+                    android:layout_width="@dimen/dimen_70_140"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_5_10"
+                    android:padding="@dimen/dimen_10_20"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_kollection_green" />
+
+                <TextView
+                    android:id="@+id/text_left_menu_inbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/icon_left_menu_inbox"
+                    android:gravity="center_vertical"
+                    android:text="@string/navi_inbox"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_16_32" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen_1_2"
+                android:background="@color/dim_gray" />
+            
+            <RelativeLayout
+                android:id="@+id/left_menu_outbox"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen_55_110"
+                android:onClick="onViewClick" >
+
+                <ImageView
+                    android:id="@+id/icon_left_menu_outbox"
+                    android:layout_width="@dimen/dimen_70_140"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_5_10"
+                    android:padding="@dimen/dimen_10_20"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_kollection_green" />
+
+                <TextView
+                    android:id="@+id/text_left_menu_outbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/icon_left_menu_outbox"
+                    android:gravity="center_vertical"
+                    android:text="@string/navi_inbox"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_16_32" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen_1_2"
+                android:background="@color/dim_gray" />
+            
+                
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,5 +1,8 @@
 <resources>
 
     <string name="app_name">PushMail</string>
+    <string name="navi_inbox">INBOX</string>
+    <string name="navi_outbox">OUTBOX</string>
+    <string name="navi_setting">SETTING</string>
 
 </resources>
