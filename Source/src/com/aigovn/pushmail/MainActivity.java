@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.aigovn.fragments.InboxFragment;
 import com.aigovn.google.gcm.GCMManager;
 import com.aigovn.google.gcm.IGCMListener;
 
