@@ -41,10 +41,12 @@ public class HttpRestClient {
 	public static final String TAG = "API";
 	public static final String SCHEME_HTTPS = "https";
 	public static final String SSL_PROTOCOL_TLS = "TLS";
+	public static final int DEFAULT_TIMEOUT = 30000; //30s
 	
 	private String mHttpsScheme;
 	private String mSSLProtocol;
 	private int mSSLPort;
+	private int mTimeOut;
 	
 	private static HttpRestClient mInstance;
 	
@@ -53,6 +55,15 @@ public class HttpRestClient {
 		mSSLProtocol = SSL_PROTOCOL_TLS;
 		mSSLPort = 443;
 		mInstance = new HttpRestClient();
+		mTimeOut = DEFAULT_TIMEOUT;
+	}
+	
+	public int getTimeOut(){
+		return mTimeOut;
+	}
+	
+	public void setTimeOut(int timeoutInMili){
+		mTimeOut = timeoutInMili;
 	}
 	
 	public HttpClient httpsClient(HttpClient client) {
@@ -90,6 +101,10 @@ public class HttpRestClient {
 		catch (Exception ex) {
 			return null;
 		}
+	}
+	
+	public String getFromUrl(String url) throws HttpServiceException {
+		return getFromUrl(url, mTimeOut);
 	}
 	
 	public String getFromUrl(String url, int timeOut) throws HttpServiceException {
@@ -150,20 +165,25 @@ public class HttpRestClient {
 		return result;
 	}
 	
-	public String postConnectValueFromAllURL(String http, List<NameValuePair> params, int timeOut)
+	public String postToURL(String url, List<NameValuePair> params)
+			throws HttpServiceException {
+		return postToURL(url, params, mTimeOut);
+	}
+	
+	public String postToURL(String url, List<NameValuePair> params, int timeOut)
 			throws HttpServiceException {
 		String result = "";
 
-		if (http != null) {
+		if (url != null) {
 			HttpClient client = null;
-			if (isHttps(http)) {
+			if (isHttps(url)) {
 				client = httpsClient(new DefaultHttpClient());
 			}
 			else {
 				client = new DefaultHttpClient();
 			}
 			try {
-				HttpPost httpPost = new HttpPost(http);
+				HttpPost httpPost = new HttpPost(url);
 				httpPost.setHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
 				httpPost.setEntity(new UrlEncodedFormEntity(params, HTTP.UTF_8));
 				HttpParams httpParams = new BasicHttpParams();
@@ -203,7 +223,7 @@ public class HttpRestClient {
 			}
 			finally {
 				client.getConnectionManager().shutdown();
-				Log.d(TAG, "API = " + http);
+				Log.d(TAG, "API = " + url);
 				Log.d(TAG, "Result = " + result);
 				Log.d(TAG, "--------------------------");
 			}
