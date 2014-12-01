@@ -1,8 +1,1121 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">PushMail</string>
+    <!-- Commons -->
+    <string name="done_cap">DONE</string>
+    <string name="done">Done</string>
+    <string name="email_cap">EMAIL</string>
+    <string name="text_cap">TEXT</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="close_cap">CLOSE</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="back_cap">BACK</string>
+    <string name="ok">Ok</string>
     <string name="navi_inbox">INBOX</string>
     <string name="navi_outbox">OUTBOX</string>
     <string name="navi_setting">SETTING</string>
+
+    <!-- Account -->
+    <string name="edit_kard">Edit Kard</string>
+    <string name="edit_kard_cap">EDIT KARD</string>
+    <string name="delete_kard_cap">DELETE KARD</string>
+    <string name="make_active_cap">MAKE ACTIVE</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="num_1">1</string>
+    <string name="edit_your_profile_picture_information">Edit your profile picture/information</string>
+    <string name="edit_profile_picture">Edit Profile Picture</string>
+    <string name="edit_basic_info">Edit Basic Info</string>
+    <string name="change_template">Change template</string>
+    <string name="change_your_privacy_setting">Change your privacy setting</string>
+    <string name="change_basic_info">Change basic info</string>
+    <string name="occupation_title">Occupation/Title</string>
+    <string name="company">Company</string>
+    <string name="city_country">City, Country</string>
+    <string name="change_your_profile_picture">Change your profile picture</string>
+    <string name="take_or_choose_your_profile_picture_cap">TAKE OR CHOOSE YOUR PROFILE PICTURE</string>
+    <string name="add_a_filter_for_your_picture">Add a filter for your picture</string>
+    <string name="work_location_info_optional">Work Location Info: (Optional)</string>
+    <string name="kard_edit_ask_force_edit">Visikard system is processing your kard image. Do you want to overwrite?</string>
+    <string name="please_choose_image_for_your_kard">Please choose image for your kard.</string>
+
+    <!-- Konnect Coupon -->
+    <string name="categories">Categories</string>
+    <string name="radius_search">Radius Search</string>
+    <string name="setting">Settings</string>
+    <string name="information">Information</string>
+    <string name="mile">mile</string>
+    <string name="miles">miles</string>
+    <string name="privacy">Privacy</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="deal_notifications">Deal Notifications</string>
+    <string name="email_receipts">Email Receipts</string>
+    <string name="reset">Reset</string>
+    <string name="entertaiment">Entertainment</string>
+    <string name="locations">Locations</string>
+    <string name="give_this_code_to_the_cashier">Give this code to the cashier</string>
+    <string name="tap_to_redeem">Tap to Redeem</string>
+    <string name="shared_successfully">Shared Successfully!</string>
+    <string name="shared_fail">Shared fail!</string>
+    <string name="distance">Distance</string>
+    <string name="expires">Expires</string>
+
+    <!-- Feed Add -->
+    <string name="choose_an_effect">Choose an Effect</string>
+    <string name="your_photo">Your Photo</string>
+    <string name="your_video">Your Video</string>
+
+    <!-- Kollection -->
+    <string name="are_you_sure_you_want_to_delete_this_kollection">Are you sure you want to delete this kollection?</string>
+    <string name="delete_Kollection">Delete Kollection</string>
+
+    <!-- String -->
+    <string name="app_name">VISIKARD</string>
+    <string name="mutual_konnection">Mutual Konnections</string>
+    <string name="connection_failed_exit">Connection to the server failed. The application is exiting.</string>
+
+    <!-- Notification Headers Common -->
+    <string name="dialog_warning">Warning</string>
+
+    <!-- Common -->
+    <string name="invalid_data_toast">An Error Occurred, please try again</string>
+    <string name="literal_ok">OK</string>
+    <string name="literal_cancel">Cancel</string>
+    <string name="literal_message">Chat</string>
+    <string name="literal_send_email">You have not any Google account on this device.</string>
+    <string name="literal_video_uploading">Video uploading</string>
+    <string name="common_connect_internet">Please connect to the internet if you want to continue to perform this function!</string>
+    <string name="email_share_title1">sent you a</string>
+    <string name="email_share_title2">Download the app to make your own and start earning rewards</string>
+    <string name="email_share_title3">Already have VisiKard?</string>
+    <string name="email_share_title4">Tap here to add this kard to your Kollection</string>
+
+    <!-- Facebook Notifications -->
+    <string name="facebook_fail_media_upload">Please select the proper media to upload to Facebook.</string>
+    <string name="facebook_fail_status_upload">Please enter status to upload to Facebook.</string>
+
+    <!-- Twitter Notifications -->
+    <string name="twitter_fail_media_upload">Please select the proper media to upload to Twitter.</string>
+    <string name="twitter_fail_status_upload">Please enter status to upload to Twitter.</string>
+    <string name="twitter_post_success">Your post to Twitter was successful.</string>
+    <string name="twitter_post_fail">Uh Oh. There was an error posting to Twitter.</string>
+    <string name="twitter_text_maxlength">Sorry, Please enter a text 140 characters or less for Twitter.</string>
+
+    <!-- Date Time Format -->
+    <string name="literal_last_year">Last year</string>
+    <string name="literal_years_ago"> years ago</string>
+    <string name="literal_last_month">Last month</string>
+    <string name="literal_months"> months</string>
+    <string name="literal_days_ago">days ago</string>
+    <string name="literal_yesterday">Yesterday</string>
+    <string name="literal_last_week">Last week</string>
+    <string name="literal_2_weeks">2 weeks ago</string>
+    <string name="literal_3_weeks">3 weeks ago</string>
+    <string name="literal_4_weeks">4 weeks ago</string>
+    <string name="literal_last_hour">an hour ago</string>
+    <string name="literal_hours_ago"> hours ago</string>
+    <string name="literal_last_minute">a minute ago</string>
+    <string name="literal_minutes_ago"> minutes ago</string>
+    <string name="literal_last_second">Just now</string>
+    <string name="literal_seconds_ago"> seconds ago</string>
+    <string name="literal_today">Today</string>
+
+    <!-- Login activity -->
+    <string name="network_problem">Network has problem. Please check and try again.</string>
+    <string name="login_field_missing">Please enter your username and password</string>
+    <string name="login_field_invalid_1">Sorry, your username/password combination is incorrect, Please try again.   Would you like to recover your password via email?</string>
+    <string name="login_field_invalid_2">Sorry, your username/password combination is incorrect, Please try again. (Attempt %1$d/5) Would you like to recover your password via email?</string>
+    <string name="please_create_your_first_kard_to_begin">Please create your first kard to begin</string>
+
+    <!-- sign in page -->
+    <string name="join_now_cap">JOIN NOW</string>
+    <string name="log_in_cap">LOG IN</string>
+
+    <!-- sign up choose type page -->
+    <string name="or">OR</string>
+
+    <!-- create account info page -->
+    <string name="create_account">JOIN VISI<b>KARD</b></string>
+    <string name="invitational">Invitational Code (Optional)</string>
+    <string name="unspecified">Unspecified</string>
+    <string name="email_validate_note">Invalid email address</string>
+    <string name="password_validate_note" formatted="false">Password must be at from %d to %d characters</string>
+    <string name="dd">DD</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YY</string>
+    <string name="account_input_phone">Your phone number:</string>
+    <string name="account_button_done">Done</string>
+    <string name="account_invalid_phone">Invalid phone number!</string>
+    <string name="social_reset_password">Sorry, your account is social network. Can not change password for it.</string>
+
+    <!-- gift kard view text -->
+    <string name="wallet2">WALLET</string>
+    <string name="delete">Delete</string>
+    <string name="login">Login</string>
+    <string name="change_success">Your password has been changed successfully!</string>
+    <string name="change_failure">Sorry, The Password cannot be changed,please try again.</string>
+    <string name="old_pass_new_pass">Old password and new password should be different.</string>
+    <string name="notification_settings">Notification settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="manager_push_notification">Notify Me Immediately When:</string>
+    <string name="please_enter_old_password">Please enter old password</string>
+    <string name="old_password_not_correct">Old password is not correct</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="password_more_than_6">Password must between 6 and 20 characters long</string>
+    <string name="password_not_match">New Password and Confirm New Password not matched. Please try again!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_coupon_kard_successfully">Delete coupon kard successfully!</string>
+    <string name="delete_coupon_kard_failed">Delete coupon kard failed!</string>
+    <string name="add_to_wallet_kard_failed">Add to Wallet specials kard failed!</string>
+    <string name="add_to_wallet_kard_success">Congratulations! A %s has been sent to your wallet successfully</string>
+    <string name="add_to_wallet_kard_exist">This specials kard exist in Wallet!</string>
+    <string name="delete_giftkard_kard_successfully">Delete gift kard successfully!</string>
+    <string name="delete_giftkard_kard_failed">Delete gift kard failed!</string>
+    <string name="gift_kard_success">Kard was gifted successfully.</string>
+    <string name="gift_kard_failure">Kard was gifted failure.</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="terms"><u>Terms and Conditions</u></string>
+    <string name="terms_visi">VisiKards Terms and Conditions</string>
+    <string name="terms_popup">CLOSE</string>
+    <string name="hide_prioritize">Hide / Prioritize Updates from specific Kards</string>
+    <string name="gift_kard_owner_title">CURRENT BALANCE</string>
+    <string name="gift_kard_donot_enought_cash_to_payment">You don\'t have enough money for this order</string>
+    <string name="gift_kard_donot_enought_point_to_payment">You don\'t have enough points for this order</string>
+    <!-- kbuilder back profile -->
+    <string name="hint_password">Password (min 6 chars)</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+
+    <!-- kolllection -->
+    <string name="kollection_title">Kollection</string>
+    <string name="kollection_add_tag_hint">Add a new deck</string>
+    <string name="kollection_add_ok">Ok</string>
+    <string name="kollection_add_tag_success">Deck added successfully</string>
+    <string name="kollection_add_tag_fail">Deck adding failed</string>
+    <string name="kollection_delete_tag_success">Deck removed successfully</string>
+    <string name="kollection_delete_tag_fail">Deck removing failed</string>
+    <string name="kollection_tag_all_kards">All Kards</string>
+    <string name="kollection_dot_separate">&#160;•&#160;</string>
+    <string name="kollection_in_separate">Near&#160;</string>
+    <string name="kollection_add_kard_tag_success">Update kards deck successfully</string>
+    <string name="kollection_add_kard_tag_fail">Update kards deck fail</string>
+
+    <!-- konnect filter -->
+    <string name="feed_hide_prio">Feeds Setting</string>
+    <string name="feed_setting_hide">Hide</string>
+    <string name="feed_setting_un_hide">Un-Hide</string>
+    <string name="feed_setting_prio">Prioritize</string>
+    <string name="feed_setting_unprio">DePrioritize</string>
+    <string name="search">Search</string>
+    <string name="search_italic"><i>Search</i></string>
+    <string name="delete_kard_default">We can\'t delete your default kard. Please select another active Kard prior to delete this Kard</string>
+
+    <!-- Konnect Deck -->
+    <string name="kard_approval_pending_status">APPROVAL PENDING</string>
+    <string name="kard_approved_status">TRADE APPROVED</string>
+    <string name="question_where_to_store_kard">WHERE WOULD YOU LIKE TO STORE THIS KARD ?</string>
+    <string name="tap_to_add_kards_to_this_desk">Tap to add Kards to this Deck</string>
+    <string name="please_select_at_least_one_kard">Please select at least one Kard.</string>
+
+    <!-- Hint for signup -->
+    <string name="done_selector_signup">Done</string>
+
+    <!-- push notification setting -->
+    <string name="notify_message">New Message</string>
+    <string name="notify_trade_request">Trade Request</string>
+    <string name="notify_trade_acceptance">Trade Accepted</string>
+    <string name="notify_mention">Someone replies to my comment</string>
+    <string name="notify_thread_post">Comments</string>
+    <string name="notify_thread_comment">Comments on my posts</string>
+    <string name="notify_media_comment">Comments on my media</string>
+    <string name="you_earned_point">You earned %d point</string>
+    <string name="you_earned_points">You earned %d points</string>
+    <string name="you_spent_points">You spent %d points</string>
+    <string name="you_spent_point">You spent %d point</string>
+
+    <!-- font kard trade -->
+    <string name="gift_kard_title">Store</string>
+
+    <!-- home navigation setting -->
+    <string name="home_setting_txt_setting">Settings</string>
+    <string name="home_setting_txt_change_profile">CHANGE PROFILE</string>
+    <string name="home_setting_exp_notification_setting">Manage Push Notifications</string>
+    <string name="home_setting_exp_password_setting">Change your password</string>
+    <string name="home_setting_exp_about_setting">About</string>
+    <string name="home_setting_txt_logout">Log Out</string>
+    <string name="current_password">Current Password</string>
+    <string name="home_setting_title_new_password">New password</string>
+    <string name="home_setting_title_confirm_password">Confirm password</string>
+    <string name="home_setting_button_text_save">Save</string>
+    <string name="home_setting_title_password_not_match">The old password is not match!</string>
+    <string name="change_password">Change Password</string>
+
+    <!-- single kard view text -->
+    <string name="del_kard_success">You have deleted this Kard successfully</string>
+    <string name="gift_send_message_kard">Tap to add a message"</string>
+    <string name="gift_buy_and_tash_msg">After completing your purchase, this Kard will be added to your wallet</string>
+
+    <!-- Send share email -->
+    <string name="email_no_input">There are no emails to send.</string>
+    <string name="email_sharing_title">SHARE KARD</string>
+    <string name="email_sharing_hint_to">to</string>
+    <string name="email_sharing_hint_cc">CC</string>
+    <string name="email_sharing_hint_subject">subject</string>
+
+    <!-- Single kard view screen -->
+    <string name="trade_kard_failed">Kard trading failed, please try again later.</string>
+    <string name="trade_kard_pending_approval">Pending approval from Kard owner</string>
+    <string name="share_kard_success">Kard shared successfully</string>
+    <string name="share_kard_by_email_failed">Kard sharing to email failed!</string>
+    <string name="share_kard_failed">Kard sharing failed!</string>
+    <string name="share_kard_starting">Sharing kard&#8230;</string>
+    <string name="untrade_kard_confirm_dlg_title">Yes</string>
+    <string name="untrade_kard_confirm_dlg_body">Do you really want to un-trade this kard ?</string>
+    <string name="post_feed_input_hint">New feed&#8230;</string>
+    <string name="invalid_status_empty">Please write something.</string>
+    <string name="status_posting_start">Posting status&#8230;</string>
+    <string name="status_posting_success">Post status for kard %s successfully </string>
+    <string name="status_posting_failed">Status posting failed for kard </string>
+    <string name="video_file_too_large">Video file exceeds 75MB limit. Please choose another video.</string>
+    <string name="video_length_too_long">Video duration exceeds 30 seconds limit. Please use another video</string>
+    <string name="video_file_invalid">Can not retrieve this video file.</string>
+    <string name="delete_kard_dlg_confirm_title">Delete kard</string>
+    <string name="delete_kard_dlg_text">You will lose all the Kards that have been traded with this Kard. When deleted, all trades done with this Kard will be lost. Do you really want to delete this kard?</string>
+    <string name="warning_text_delete_kard">You will lose all the Kards that have been traded with this Kard.</string>
+    <string name="confirm_text_delete_kard">Are you sure you want to delete this kard ?</string>
+    <string name="delete_kard_text_button">Delete Kard</string>
+    <string name="delete_kard_dlg_gift_kard">Do you really want to delete this kard?</string>
+    <string name="delete_kard_dlg_delete">Delete</string>
+    <string name="delete_kard_failed">Deletion failed. Please try again later..</string>
+    <string name="add_new_tag_hint">+NEW DECK</string>
+    <string name="no_kard_to_tag">Please select a kard to add tags</string>
+    <string name="new_tag_adding">Tag will appear in list when added successfully</string>
+    <string name="new_tag_adding_name_error">Tag name can not empty or \'  \'</string>
+    <string name="new_tag_adding_name_allkard">There is only one "All Kards" existed</string>
+
+    <!-- display update -->
+    <string name="popup_update_title">Update Notice</string>
+    <string name="popup_update_btn_update">Update</string>
+    <string name="popup_update_btn_skip">Skip</string>
+    <string name="popup_update_description">New version available (%s)</string>
+
+    <!-- Main screen -->
+    <string name="main_screen_dlg_exit_title">Exit</string>
+    <string name="main_screen_dlg_exit_msg">Do you want to exit?</string>
+    <string name="loading_progress_dialog">Loading&#8230;</string>
+    <string name="dlg_no_gps_title">Location service is off</string>
+    <string name="dlg_no_gps_msg">Please turn on location service for better experience using Visikard</string>
+    <string name="dlg_no_gps_enable">Enable</string>
+    <string name="dlg_no_gps_not_now">Not now</string>
+
+    <!-- Add credit card -->
+    <string name="add_credit_card_title">Add a Credit Card</string>
+    <string name="add_credit_card_holder">Cardholder</string>
+    <string name="add_credit_card_numder">Credit card number</string>
+    <string name="add_credit_card_expired_date">Expiration date mm/yyyy</string>
+    <string name="add_credit_card_cvv">cvv</string>
+    <string name="add_credit_card_zip_code">Zip code</string>
+    <string name="add_credit_card_done_action">Swipe to add this card to your wallet</string>
+    <string name="add_credit_card_miss_card_type">Please select credit card type (Master, Visa Or American Express).</string>
+    <string name="add_credit_card_invalid_number">Invalid credit card number!</string>
+    <string name="add_credit_card_miss_card_holder">Please enter the credit card holder name.</string>
+    <string name="add_credit_card_miss_card_number">Please enter the credit card number.</string>
+    <string name="add_credit_card_miss_date">Please select the expiration date of your credit card.</string>
+    <string name="add_credit_card_miss_cvv">Please enter the credit card cvv number.</string>
+    <string name="add_credit_card_miss_char_cvv">Credit card cvv number require at least three numbers</string>
+    <string name="add_credit_card_miss_zip_code">Please enter the zip code.</string>
+    <string name="add_credit_card_success">Your Credit Card added successfully!.</string>
+    <string name="add_credit_card_invalid_date">Invalid expired date!</string>
+
+    <!-- Sign In -->
+    <string name="sign_in_email_send">Email here</string>
+    <string name="sign_in_email_send_btn">Send</string>
+    <string name="sign_in_email_cancel_btn">Cancel</string>
+
+    <!-- Sign up -->
+    <string name="sign_up_text2">Terms and Conditions</string>
+    <string name="sign_up_terms_and_conditions1">By tapping join you agree to Visikard\'s</string>
+    <string name="sign_up_terms_and_conditions2">Terms of Use Agreement</string>
+    <string name="sign_up_terms_and_conditions3">and</string>
+    <string name="sign_up_terms_and_conditions4">Privacy Policy</string>
+    <string name="alert_confirm_check_tac">Please read and confirm you accept the terms of use</string>
+
+    <!-- backkard business -->
+    <string name="untrade_confirm_question">Are you sure you want to untrade this kard?</string>
+    <string name="untrade_button_text">Untrade</string>
+    <string name="back_kard_title_reviews">Reviews</string>
+    <string name="back_kard_title_review">Review</string>
+    <string name="check_in_success">Check in successfully!...</string>
+    <string name="check_in_failed">Check in failure!...</string>
+    <string name="untrade_warning">You will stop receiving any communication from this merchant kard</string>
+
+    <!-- Backard album -->
+    <string name="backard_album_post_photo">Add a caption to your photo&#8230;</string>
+    <string name="backard_album_media">Add a caption to your media&#8230;</string>
+    <string name="backard_album_post_message">What are you up to?</string>
+
+    <!-- Backard identity kard -->
+    <string name="backard_detail_num_like_suffix">&#160;like</string>
+    <string name="backard_detail_num_like_suffix_plural">&#160;likes</string>
+    <string name="backard_detail_num_comment_suffix">&#160;comment</string>
+    <string name="backard_detail_num_comment_suffix_plural">&#160;comments</string>
+    <string name="backard_detail_num_repost_suffix">&#160;repost</string>
+    <string name="backard_video_duration_suffix">&#160;Sec</string>
+    <string name="backard_detail_num_repost_suffix_plural">&#160;reposts</string>
+    <string name="backard_detail_tag_prefix">\@</string>
+    <string name="backard_detail_like_succ">liked successfully</string>
+    <string name="backard_detail_like_fail">like fail</string>
+    <string name="backard_detail_unlike_succ">unliked successfully</string>
+    <string name="backard_detail_unlike_fail">unlike fail</string>
+    <string name="backard_detail_comment_succ">commented successfully</string>
+    <string name="backard_detail_comment_fail">comment fail</string>
+    <string name="post_comment_input_hint">New comment&#8230;</string>
+    <string name="invalid_comment_empty">There is no content to comment!</string>
+    <string name="comment_posting_start">Posting comment&#8230;</string>
+    <string name="repost_successfully">Repost successfully</string>
+    <string name="repost_fail">Repost fail</string>
+    <string name="repost_from">Repost from</string>
+    <string name="backard_num_follower_suffix_plural">&#160;followers</string>
+    <string name="backard_num_follower_suffix">&#160;follower</string>
+    <string name="backard_filter_activity">Activity</string>
+    <string name="backard_filter_video">Videos</string>
+    <string name="backard_filter_music">Music</string>
+    <string name="backard_filter_photo">Photos</string>
+    <string name="backard_filter_thought">Thoughts</string>
+    <string name="backard_modun_contact">Contact</string>
+    <string name="backard_modun_twitter">Twitter</string>
+    <string name="backard_modun_linkedin">LinkedIn</string>
+    <string name="backard_modun_share">Share</string>
+    <string name="backard_modun_audience">Audience</string>
+    <string name="backard_modun_stories">Stories</string>
+    <string name="mutual_trades">Mutual Trades</string>
+    <string name="backard_modun_mute">Mute</string>
+    <string name="backard_modun_un_mute">Un mute</string>
+    <string name="backard_modun_un_trade">Un-trade</string>
+    <string name="backard_add_contact_title">Add New Contact</string>
+    <string name="backard_cancel_contact_title">Cancel</string>
+    <string name="backard_contact_phone_add">New Phone Number</string>
+    <string name="backard_contact_address_add">New Address</string>
+    <string name="backard_contact_email_add">New Email</string>
+    <string name="backard_contact_website_add">New Website</string>
+    <string name="backard_contact_twitter_add">New Twitter</string>
+    <string name="backard_contact_phone_edit">Edit Phone Number</string>
+    <string name="backard_contact_address_edit">Edit Address</string>
+    <string name="backard_contact_email_edit">Edit Email</string>
+    <string name="backard_contact_website_edit">Edit Website</string>
+    <string name="backard_contact_twitter_edit">Edit Twitter</string>
+    <string name="backard_contact_add_phone">555-555-5555</string>
+    <string name="backard_contact_add_address">123 Peachtree St. Atlanta, GA 30124</string>
+    <string name="backard_contact_add_email">johnsmith@gmail.com</string>
+    <string name="backard_contact_add_website">www.johnsmith.com</string>
+    <string name="backard_contact_add_twitter">&#160;@johnsmith</string>
+    <string name="backard_add_contact_fail">Add contact fail</string>
+    <string name="backard_add_email_invalid">Invalid Email!</string>
+    <string name="backard_add_empty_field">Please input all of field!</string>
+    <string name="backard_add_none_label">Type cannot be none</string>
+    <string name="backard_repost_owner_kard">You can not repost on your kard</string>
+    <string name="backard_flag_content">Flag as inappropriate ?</string>
+    <string name="backard_flag_btn">Flag</string>
+    <string name="backard_detail_flag_fail">flag fail</string>
+    <string name="backard_detail_flag_succ">flag successfully</string>
+    <string name="backard_delete_content">Are you sure you want to delete?</string>
+    <string name="backard_delete_btn">Delete</string>
+    <string name="backard_detail_delete_fail">Delete fail</string>
+    <string name="backard_detail_delete_succ">Deleted successfully</string>
+
+    <!-- Back kard Share email -->
+    <string name="backard_share_email_recipient">Recipients cannot be blank</string>
+    <string name="backard_share_email_incorrect">Email address incorrect</string>
+    <string name="backard_share_subject_not_blank">Subject cannot be blank</string>
+    <string name="backard_share_sharing_email_sent">Sharing email has been sent</string>
+    <string name="backard_share_sharing_email_cannot_share">You cannot share kard via email without providing permission for authentication.</string>
+    <string name="backard_share_sharing_email_have_not_google_account">You have not an google account on this device.</string>
+    <string name="backard_share_sharing_email_already_in_visikard">You are in Visikard app already!</string>
+
+    <!-- Backard contract -->
+    <string name="payment_message_error">Unable to complete order. You have not been charged. Please try again later.</string>
+    <string name="payment_message_error_unknown">You entered incorrect credit card details or have insufficient funds on your card</string>
+    <string name="payment_message_success">Purchase successful</string>
+    <string name="title_confirm_delete_kard">Are you sure you want to delete this credit card?</string>
+
+    <!-- KardBuilder Screen -->
+    <string name="kardbuilder_sharekard_public">Public</string>
+    <string name="kardbuilder_tradekard">Auto Trade</string>
+    <string name="kardbuilder_show_connections">Show Konnections</string>
+    <string name="kardbuilder_tradekard_on">On</string>
+    <string name="kardbuilder_tradekard_off">Off</string>
+    <string name="kardbuilder_setting_on">On</string>
+    <string name="kardbuilder_setting_off">Off</string>
+    <string name="kardbuilder_setting_title">Set your privacy</string>
+    <string name="kardbuilder_email_1_headline">Basic info</string>
+    <string name="kardbuilder_email_2_headline">Set your profile picture</string>
+    <string name="kardbuilder_email_3_headline">Add a filter for your picture</string>
+    <string name="kardbuilder_facebook_title">Create Your Kard</string>
+    <string name="kardbuilder_setting_choose_teamplate">Select your template</string>
+    <string name="kardbuilder_setting_choose_picture">Select your picture</string>
+
+    <!-- Kard setting -->
+    <string name="kard_setting_set_private">This is kard default. You can not set private.</string>
+
+    <!-- Wallet & Activity -->
+    <string name="forgot_pin">Forgot pin?</string>
+    <string name="incorrect_time_one">You entered incorrect pin code. Please re-enter pin code.</string>
+    <string name="incorrect_time_two">You entered incorrect pin code. Please re-enter pin code. (Attempt 2/5)</string>
+    <string name="incorrect_time_three">You entered incorrect pin code. Please re-enter pin code. (Attempt 3/5)</string>
+    <string name="incorrect_time_four">You entered incorrect pin code. Please re-enter pin code. (Attempt 4/5)</string>
+    <string name="new_pin_code">Please set your PIN.</string>
+    <string name="confirm_pin_code">Please confirm pin code.</string>
+    <string name="confirm_pin_not_match">Confirm pin code is not match</string>
+    <string name="message_validate_pin">Pin Invalid. Please re-enter pin code</string>
+    <string name="not_empty">Don\'t empty</string>
+    <string name="process_have_error">Fail process! Please try again</string>
+    <string name="resetting_password">\nResetting your VisiKard application password will also reset the wallet PIN.\n\nPlease set a new wallet Pin after you logged into application with your new password. Thank You!</string>
+    <string name="resetting_password_message">Important Message</string>
+    <string name="feed_timeline_item_new_message_from">New message from</string>
+    <string name="feed_timeline_item_commented_status">Commented on your status</string>
+    <string name="feed_timeline_item_replied_comment">Replied to your comment</string>
+    <string name="feed_timeline_item_commented">Commented on your</string>
+    <string name="commented_on_your_thought">Commented on your thought</string>
+    <string name="liked_your_thought">Liked your thought</string>
+    <string name="feed_timeline_item_accepted_trade">Accepted your trade request</string>
+    <string name="feed_timeline_item_sent_trade">Sent you a trade request</string>
+    <string name="feed_timeline_item_traded_kard">Has traded kards with you!</string>
+    <string name="feed_timeline_item_posted_thread">Has posted new thread!</string>
+    <string name="feed_timeline_item_updated_status">Has posted a new status update</string>
+    <string name="feed_timeline_item_add_video">Added a new video</string>
+    <string name="feed_timeline_item_add_photo">Added a new photo</string>
+    <string name="feed_timeline_item_add_audio">Added a new audio</string>
+    <string name="feed_timeline_item_repost_video">reposted a video from</string>
+    <string name="feed_timeline_item_repost_photo">reposted a photo from</string>
+    <string name="feed_timeline_item_comment_video">Commented on your video</string>
+    <string name="feed_timeline_item_comment_audio">Commented on your audio</string>
+    <string name="feed_timeline_item_comment_photo">Commented on your photo</string>
+    <string name="feed_timeline_item_share_kard_for_you">Would like you to meet</string>
+    <string name="feed_timeline_item_share_album_for_you">Has shared an album with you</string>
+    <string name="feed_timeline_item_commented_album">Commented on your album</string>
+    <string name="feed_timeline_item_add_new_album">Added a new album</string>
+    <string name="feed_timeline_item_tagged_album">Tagged you in an album</string>
+    <string name="feed_timeline_item_like_status">Like your status</string>
+    <string name="feed_timeline_item_like_photo">Liked your photo</string>
+    <string name="feed_timeline_item_like_video">Liked your video</string>
+    <string name="feed_timeline_item_flag_photo">Flag your photo</string>
+    <string name="feed_timeline_item_flag_video">Flag your video</string>
+    <string name="feed_timeline_item_like_this">Like this</string>
+    <string name="feed_timeline_item_gave_gift_kard">Gave you a gift kard</string>
+    <string name="feed_timeline_item_add_gift_theirs">Has added a gift Kard to their wallet</string>
+    <string name="feed_timeline_item_my_first_profile">My first profile</string>
+    <string name="feed_timeline_item_message_error_loading">error loading</string>
+    <string name="feed_timeline_item_button_accept">Accept</string>
+    <string name="feed_timeline_item_button_ignore">Ignore</string>
+    <string name="wallet_give_to_friend">GIVE TO A FRIEND</string>
+    <string name="wallet_how_to_redeem">HOW TO REDEEM</string>
+    <string name="give_aways">GIVE AWAYS</string>
+    <string name="enter_zipcode">Enter Zip Code</string>
+    <string name="enter_postal_code">Enter Postal Code</string>
+    <string name="zipcode_error">Sorry we don\'t show that Zip Code / Postal Code within our system, please try again.</string>
+    <string name="change_zipcode">Change Zip code %s</string>
+    <string name="change_postal_code">Change Postal code %s</string>
+
+    <!-- logout screen -->
+    <string name="logout_btn_logout">Log out</string>
+    <string name="logout_text_logout">email</string>
+    <string name="logout_title_logout">Are you sure you want to log out?</string>
+
+    <!-- back kard swipe menu screen -->
+    <string name="claim_business_kard_invalid_mail">Invalid input your email, please check again!...</string>
+    <string name="backkard_swipe_menu_about">About</string>
+    <string name="backkard_swipe_menu_specials">Specials</string>
+    <string name="backkard_swipe_menu_coupons">Coupons</string>
+    <string name="backkard_swipe_menu_audience">Audience</string>
+    <string name="backkard_swipe_menu_giftkard">Gift Kards</string>
+    <string name="backkard_swipe_menu_mutual_konnections">Mutual Konnections</string>
+    <string name="backkard_swipe_menu_not_show">Don\'t show in feet</string>
+    <string name="backkard_swipe_menu_show">Show in feet</string>
+    <string name="backkard_swipe_menu_un_trade">Un-trade</string>
+    <string name="backkard_swipe_menu_trade">Trade</string>
+    <string name="backkard_flipped_title_photo">Photo</string>
+    <string name="backkard_flipped_dialog_warning">Call failed!</string>
+    <string name="backkard_flipped_trade_kard_incorrect_phone">Sorry! Incorrect phone number: </string>
+    <string name="backkard_flipped_trade_kard_button_done">DONE</string>
+    <string name="backkard_flipped_title_specials">SPECIALS</string>
+    <string name="backkard_flipped_title_coupons">COUPONS</string>
+    <string name="backkard_flipped_title_powered_by">Powered by</string>
+    <string name="backkard_flipped_item_percent">50% OFF</string>
+    <string name="backkard_flipped_item_bote">When you trade with us. Tap to see offer details</string>
+    <string name="backkard_flipped_item_show_detail">Tap kard to see offer details</string>
+
+    <!-- Select kard to repost -->
+    <string name="me_kard_repost_title">Repost to...</string>
+
+    <!-- Status Location Screen -->
+    <string name="post_status_location_title">Add Location </string>
+    <string name="unknown">Unknown</string>
+    <string name="location">Location</string>
+    <string name="name_is_required">Place name is required. Please input the place name</string>
+
+    <!-- keyboard -->
+    <string name="key_done">Done</string>
+    <string name="key_delete">Delete</string>
+
+    <!-- Dialog message -->
+    <string name="warrning">Warning!</string>
+    <string name="notice">Notice</string>
+
+    <!-- Message Screen -->
+    <string name="today">Today</string>
+
+    <!-- Create new location -->
+    <string name="new_location">New location</string>
+    <string name="name">Name</string>
+    <string name="address_optional">Address (Optional)</string>
+    <string name="add_location_success">Add location successfully</string>
+    <string name="add_new_location">Add New Location</string>
+    <string name="new_thought">Write Status</string>
+    <string name="new_photo_add_media">New Photo</string>
+    <string name="new_video">New Video</string>
+    <string name="new_audio">New Audio</string>
+
+    <!-- BackkardAddMedia -->
+    <string name="media_sending">Sending media...</string>
+    <string name="media_sent_successful">Media sent successfully</string>
+    <string name="media_sent_failure">Media sent failure</string>
+    <string name="sorry_this_file_too_big">Sorry, this file is too big</string>
+
+    <!-- My Kards -->
+    <string name="friend">Friend</string>
+    <string name="friends">Friends</string>
+    <string name="none">None</string>
+    <string name="delete_kard">DELETE</string>
+    <string name="profiles">Profiles</string>
+
+    <!-- image effect list fixed like iOS -->
+    <string name="effect_1977">Cambria</string>
+    <string name="effect_apollo">Stricosus</string>
+    <string name="effect_default">Lucidus</string>
+    <string name="effect_earlybird">Lux</string>
+    <string name="effect_gotham">Nox</string>
+    <string name="effect_hefe">Flavus</string>
+    <string name="effect_inkwell">Furvus</string>
+    <string name="effect_lomo_fi">Cluras</string>
+    <string name="effect_lord_kelvin">Leteus</string>
+    <string name="effect_nashville">Aura</string>
+    <string name="effect_poprocket">Campus</string>
+    <string name="effect_sutro">Nitidus</string>
+    <string name="effect_toaster">Mustum</string>
+    <string name="effect_walden">Albus</string>
+    <string name="effect_x_pro_ii">Umbra</string>
+
+    <!-- New Home Screen -->
+    <string name="num_of_people_nearby">People Nearby</string>
+    <string name="num_of_special_nearby">Specials Nearby</string>
+    <string name="navi_title_home">Home</string>
+    <string name="navi_title_konnect">Konnect</string>
+    <string name="navi_title_kollection">Kollection</string>
+    <string name="navi_title_notification">Notifications</string>
+    <string name="navi_title_message">Messages</string>
+    <string name="navi_title_current_message">Current Messages</string>
+    <string name="navi_title_point">POINTS</string>
+    <string name="navi_title_store">Store</string>
+    <string name="navi_title_wallet">Wallet</string>
+    <string name="read_more_announcer">Read more</string>
+    <string name="read_less_announcer">Read less</string>
+    <string name="home_notification_message">Has added a gift Kard to their wallet</string>
+    <string name="qrcode_title">RECEIVE OFFERS BY SHOWING THIS KARD AT MERCHANT</string>
+
+    <!-- Backkard contact -->
+    <string name="mobile">Mobile</string>
+    <string name="personal">Personal</string>
+    <string name="work">Work</string>
+    <string name="phone_number">Phone number</string>
+    <string name="address_contact">Address</string>
+    <string name="website">Website</string>
+    <string name="twitter_handle">Twitter handle</string>
+
+    <!-- Reset Pin/Pass -->
+    <string name="msg_invalid_email">Sorry, we need a valid email address. Please try again.</string>
+    <string name="msg_invalid_confirm_email">Sorry, we need a valid confirm email address. Please try again.</string>
+    <string name="msg_reset_pass_success">OK, we\'ve sent the new account password and reset wallet PIN to your email. Please check your email and then try logging in again.</string>
+    <string name="msg_reset_pin_success">OK, we\'ve sent the wallet Pin to your email. Please check your email, then try logging in.</string>
+    <string name="msg_reset_pass_failure">Sorry, Reset Password failure. Please try again?</string>
+    <string name="msg_reset_pin_failure">Sorry, Reset wallet Pin failure. Please try again?</string>
+    <string name="msg_enter_email_wrong">Sorry, This email does not match with email being logged. Please try again!</string>
+    <string name="msg_enter_email_not_exists">This email address does not exist. Please check this email!</string>
+    <string name="msg_enter_email">Please, enter email!</string>
+
+    <!-- Point Activity -->
+    <string name="main_point_title">POINTS HISTORY</string>
+    <string name="main_point_history_title">SHOP WITH POINTS</string>
+    <string name="main_point_points">Points</string>
+    <string name="main_point_level">Level</string>
+    <string name="main_point_sharing_a_kard">Sharing a kard</string>
+    <string name="main_point_share_a_kard">Sharing a kard</string>
+    <string name="main_point_trading_a_kard">Trading a kard</string>
+    <string name="main_point_reward">Reward : gift kard</string>
+    <string name="main_point_commenting_media">Commenting on Media</string>
+    <string name="main_point_uploading_media_to_kard">Uploading media to a Kard</string>
+    <string name="main_point_posting_message">Post messaging</string>
+    <string name="main_point_go_through_tip_tricks">Going through VK tips and tricks</string>
+    <string name="main_point_adding_credit_card">Adding a credit card</string>
+    <string name="main_point_watching_intro_video">Watching the Intro Video</string>
+    <string name="main_point_signup_account">Sign up New Account </string>
+    <string name="making_an_identity_kard">Making an Identity Kard </string>
+
+    <!-- Store Activity -->
+    <string name="main_store_button_check_out">Check Out</string>
+    <string name="main_store_hint_your_first_name">Your first name</string>
+    <string name="main_store_hint_your_last_name">Your last name</string>
+    <string name="main_store_hint_your_email">Your email</string>
+    <string name="main_store_confirm_purchase">Confirm Purchase</string>
+    <string name="main_store_slide_to_purchase">Slide to purchase</string>
+    <string name="main_store_payment">PAYMENT</string>
+    <string name="main_store_total">TOTAL</string>
+    <string name="main_store_title_credit_card">CREDIT CARD</string>
+    <string name="main_store_message_add_cc">Please add credit card!</string>
+    <string name="main_store_message_full_fill_cc">Please fill out all required fileds!</string>
+    <string name="main_store_btn_buy_and_stash">BUY AND STASH</string>
+    <string name="main_store_btn_buy_and_give">BUY AND GIVE</string>
+    <string name="main_store_btn_title_next">Next</string>
+    <string name="main_store_btn_title_terms_conditions">TERMS &amp; CONDITIONS</string>
+    <string name="main_store_message_in_store">In Store only</string>
+    <string name="main_store_message_online">Online only</string>
+    <string name="main_store_message_in_store_and_online">In Store/Online</string>
+    <string name="main_store_right_menu_title_feature">Featured</string>
+    <string name="main_store_right_menu_title_popular">Popular</string>
+    <string name="main_store_right_menu_title_alphabetical">Browse Alphabetically</string>
+    <string name="main_store_form_purchase_to">To: </string>
+    <string name="main_store_form_purchase_from">From: </string>
+    <string name="main_store_delivery_date">Delivery date</string>
+    <string name="main_store_instant_delivery">Instant delivery</string>
+    <string name="main_store_choose_date">Choose date</string>
+    <string name="main_store_jan">January</string>
+    <string name="main_store_feb">February</string>
+    <string name="main_store_mar">March</string>
+    <string name="main_store_apr">April</string>
+    <string name="main_store_may">May</string>
+    <string name="main_store_jun">June</string>
+    <string name="main_store_jul">July</string>
+    <string name="main_store_aug">August</string>
+    <string name="main_store_sep">September</string>
+    <string name="main_store_oct">October</string>
+    <string name="main_store_nov">November</string>
+    <string name="main_store_dec">December</string>
+
+    <!-- Home Activity -->
+    <string name="home_title_filter">Filters</string>
+    <string name="home_title_share_introduce">Introduce</string>
+    <string name="home_title_share_report">Report</string>
+    <string name="home_title_share_email">Email</string>
+    <string name="home_title_filter_group">Group</string>
+    <string name="data_refreshing_notice">Loading data, please wait!</string>
+    <string name="video_waiting_upload_notice">Please wait for this video to be uploaded</string>
+    <string name="home_location_ask_trade">Tap here to view kard</string>
+    <string name="home_location_title_trade_prefix">At&#160;</string>
+    <string name="home_location_item_timeline_in">in&#160;</string>
+    <string name="home_location_title_trade_suffix">\?</string>
+
+    <!-- Invite Screen -->
+    <string name="invite">Invite</string>
+    <string name="invite_trade">Invitation</string>
+    <string name="total_invite_trade">Total invite traded:</string>
+    <string name="recieve_gift_from_invite_traded">Claim GiftKards for completed trades</string>
+    <string name="invite_your_friends">Invite your friends</string>
+    <string name="invite_your_friends_cap">INVITE YOUR FRIENDS</string>
+    <string name="what_your_message">What is your message?</string>
+    <string name="current_trade_balance">Current trade balance</string>
+    <string name="claim">Claim</string>
+    <string name="invite_empty_kard_text"></string>
+    <string name="num_trade">%d trade</string>
+    <string name="operation_fail">Operation is fail</string>
+    <string name="purchase_success">Operation successful. Your GiftKard is now available in your wallet</string>
+    <string name="purchase_fail">Sorry, purchase incomplete, try again later</string>
+    <string name="your_number_trade_not_enough">You did not trade with enough friends to get this GiftKard. Try harder ! You can make it</string>
+    <string name="email_existed">Email %s existed in VisiKard\'s system</string>
+    <string name="info_text">- Tap INVITE button at the bottom of the screen to invite friends to join VisiKard and get gifts.\n- When your friends joins, ask him to trade kards with you.\n- You\'ll get a trade point, while he will get a discount in his wallet.\n- Could it be better?</string>
+    <string name="please_type_message_to_invite">Please type a message to invite</string>
+    <string name="invite_email_message_dialog">Invite your friend from contacts</string>
+    <string name="invite_facebook_message_dialog">Invite your friend from facebook</string>
+    <string name="find_friends">FIND FRIENDS</string>
+    <string name="facebook">Facebook</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="contacts">Contacts</string>
+    <string name="title_twitter">Twitter</string>
+    <string name="find_friend_from_facebook">Find friend from facebook</string>
+    <string name="find_friend_from_twitter">Find friend from twitter</string>
+    <string name="find_friend_from_linkedin">Find friend from linkedin</string>
+    <string name="invite_friend_to_share_their_options">Invite friend to share their options</string>
+    <string name="recommended_users_to_trade">RECOMMENDED USERS TO TRADE</string>
+    <string name="invited_history">INVITED HISTORY</string>
+    <string name="traded_no_dot">Traded</string>
+    <string name="invited">Invited</string>
+    <string name="joined">Joined</string>
+    <string name="message_cannot_empty">Message cannot be empty</string>
+    <string name="friend_empty">There is no friend</string>
+    <string name="invite_text_default">Your friend has invited you to check out VisiKard</string>
+    <string name="invitations_sent_successfully">Invitations sent successfully</string>
+    <string name="select_email_would_you_like_to_invite">Add email would you like to invite</string>
+
+    <!-- Dialog Title -->
+    <string name="dialog_delete_title">Delete</string>
+
+    <!-- Music screen -->
+    <string name="playing_now">Playing now</string>
+    <string name="num_song_current"> %1$d of %2$d</string>
+    <string name="media_error">There is an error, this media file can not play.</string>
+
+    <!-- Trade Kard -->
+    <string name="message_will_not_available">Message won\'t be available until you make your first trade with this kard.</string>
+
+    <!-- camera 24 -->
+    <string name="auto">Auto</string>
+    <string name="library">Library</string>
+    <string name="instagram">Instagram</string>
+
+    <!-- Konenect -->
+    <string name="Konnect_isonline">Online</string>
+    <string name="Konnect_isoffline">Offline</string>
+    <string name="Konnect_isidle">Idle</string>
+    <string name="Konnect_istraded">Traded</string>
+    <string name="Konnect_ispending">Pending</string>
+    <string name="Konnect_swipe_up_to_trade">Swipe up to trade</string>
+    <string name="Konnect_coupons_filter_category">Choose the coupon categories</string>
+    <string name="Konnect_add_coupons_to_wallet_faile">Add coupon to Wallet failure!</string>
+    <string name="Konnect_add_coupons_to_wallet_success">Add coupon to Wallet successfully!</string>
+    <string name="Konnect_add_coupons_to_wallet_exists">This coupon was added to Wallet!</string>
+    <string name="Konnect_add_coupons_to_wallet_redeemed">You have already redeemed this coupon and it is only possible to redeem it once!</string>
+    <string name="Konnect_use_coupons_not_use">You have already redeemed this coupon and it is only possible to redeem it once!</string>
+    <string name="Konnect_add_coupons_to_wallet_title">Can not add to wallet</string>
+    <string name="Konnect_use_coupons_not_use_title">Can not use this coupon</string>
+
+    <!-- Wallet -->
+    <string name="gift_kard">Gift Kard</string>
+    <string name="powered_by">Powered by</string>
+    <string name="tap_star_to_receive_punch">Tap star to receive punch</string>
+    <string name="earned_one_punch">Congratulations, you have just earned one punch</string>
+    <string name="earned_gift_kard">Congratulations, %s Gift Kard has been sent to your wallet</string>
+    <string name="wallet_coupon_title">COUPONS</string>
+    <string name="wallet_punch_title">PUNCH KARDS</string>
+    <string name="wallet_gift_kards_title">GIFT KARDS</string>
+    <string name="wallet_setting_title">WALLET SETTINGS</string>
+    <string name="wallet_setting_wallet_pin">WALLET PIN</string>
+    <string name="wallet_setting_wallet_change_pin">CHANGE PIN</string>
+    <string name="wallet_setting_payment_info">PAYMENT INFO</string>
+    <string name="wallet_setting_credit_preffix">**********</string>
+    <string name="wallet_setting_add_a_kard">ADD A KARD</string>
+    <string name="wallet_credit_add_kard">ADD KARD</string>
+    <string name="wallet_credit_info_kard">CARD INFO</string>
+    <string name="wallet_credit_save_kard">SAVE</string>
+    <string name="wallet_credit_hint_mmyy">MM/YY</string>
+    <string name="wallet_credit_hint_cvv">CVV</string>
+    <string name="wallet_credit_hint_zip">ZIP</string>
+    <string name="wallet_credit_hint_credit">xxxx xxxx xxxx xxxx</string>
+    <string name="btn_use_this_coupon">USE THIS COUPON</string>
+    <string name="btn_add_to_wallet">ADD TO MY WALLET</string>
+    <string name="coupons_btn_add_to_wallet">Add to wallet</string>
+    <string name="coupons_btn_redeem_now">Use this coupon</string>
+    <string name="redeem">Redeem</string>
+    <string name="btn_add_to_share">SHARE</string>
+    <string name="btn_tap_to_add_punch">TAP TO ADD A PUNCH</string>
+    <string name="wallet_coupon_sales_off_suffix">&#160;YOUR PURCHASE</string>
+    <string name="wallet_how_to_use_ins">Give this code to the cashier</string>
+    <string name="wallet_pin_code_title">ENTER YOUR PIN</string>
+    <string name="btn_use_this_gift_kard">USE THIS GIFT KARD</string>
+    <string name="point_num_score_suffix">PTS</string>
+    <string name="point_one_score_suffix">PT</string>
+    <string name="point_top_title_point_history">POINTS HISTORY</string>
+    <string name="point_top_title_shop_with_point">SHOP WITH POINTS</string>
+    <string name="point_top_title_reward">REWARD YOURSELF!</string>
+    <string name="point_content_body_intro">&#160;starting at&#160;</string>
+    <string name="gift_kard_content_location">Participating Locations</string>
+
+    <!-- kbuilder 2.5 -->
+    <string name="kb_camera_hint">Take or choose your profile picture</string>
+    <string name="work_location_info">Work Location Info:</string>
+    <string name="tagline_hint">Write up to 60 characters about yourself. (Optional)</string>
+    <string name="your_info">Your Info</string>
+    <string name="city_state">City, State</string>
+    <string name="fb_app_id">566878153381123</string>
+
+    <!-- group chat v2.6 -->
+    <string name="group_chat_main_title">Groups</string>
+    <string name="group_chat_create_title">Create Group</string>
+    <string name="group_chat_create_button">CREATE</string>
+    <string name="group_chat_select_friend_title">Choose Online Friends</string>
+    <string name="group_chat_hint_group_name">group name</string>
+    <string name="group_chat_save_continue">CONTINUE</string>
+    <string name="group_chat_name_alert">Please enter the group name.</string>
+    <string name="group_chat_name_alert_invalid_input">Room name does not allow "_##_" !</string>
+    <string name="group_chat_alert_left">Are you sure you want to left room?</string>
+    <string name="group_chat_destroy_room">Room was destroyed.</string>
+    <string name="group_chat_left_room">&#160;has left the room.</string>
+    <string name="group_chat_join_room">&#160;has joined the room.</string>
+    <string name="group_chat_invite_room">Meet me in this excellent room</string>
+    <string name="group_chat_joined_room">You have joined group chat:&#160;</string>
+    <string name="group_chat_no_online_friends">You can not create group due to you have no online friends at this moment</string>
+    <string name="group_chat_right_menu_groups">Groups</string>
+    <string name="group_chat_friend_singular">&#160;friend</string>
+    <string name="group_chat_friend_plural">&#160;friends</string>
+    <string name="group_chat_right_menu_online_friends">Online Friends</string>
+    <string name="group_chat_right_menu_recent_chats">Recent Chats</string>
+    <string name="group_chat_right_menu_all_friends">All Friends</string>
+    <string name="group_chat_right_menu_contact">Phone Contact</string>
+    <string name="chat_contact_detail_tab_all_contacts">All Contacts</string>
+    <string name="chat_contact_detail_tab_visikard">Visikard</string>
+    <string name="chat_contact_detail_item_invite">Invite</string>
+    <string name="group_chat_all_friend_title">All Friends</string>
+    <string name="group_chat_online_friends_title">Online Friends</string>
+    <string name="group_chat_phone_contact_title">Phone Contact</string>
+
+    <!-- 1-1 chat -->
+    <string name="photo_chat_current">%1$d / %2$d</string>
+    <string name="post">Post</string>
+    <string name="image_not_found_or_downloading">Current photo are downloading or corrupt</string>
+    <string name="online">ONLINE</string>
+    <string name="offline">OFFLINE</string>
+    <string name="idle">IDLE</string>
+    <string name="hold_to_record">HOLD TO RECORD</string>
+    <string name="release_to_stop">RELEASE TO STOP</string>
+    <string name="sent_sticker">sent you a sticker</string>
+    <string name="version_update_note">Your app are out of date, please visit this link https://play.google.com/store/apps/details?id=com.visikard.tt to get the latest version.</string>
+    <string name="join_recommended">Recommended</string>
+    <string name="sign_up_with_email">Sign up with email</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="sign_up_invites_friends">Invite Friends</string>
+    <string name="sign_up_slide_to_trade">Slide to Trade All</string>
+    <string name="sign_up_slide_to_invite">Slide to Invite All Friends</string>
+    <string name="sign_up_trade_success">Trade friend success full!</string>
+    <string name="sign_up_invite_success">Invite friend success full!</string>
+    <string name="sign_up_trade_title">We found %s of your facebook friends on Visikard. Trade kard now</string>
+    <string name="sign_up_invite_title">Invite your facebook friends to Visikard</string>
+
+    <!-- Home Loyalty -->
+    <string name="loyalty_and_rewards">Loyalty and Rewards</string>
+    <string name="shop_with_points">Shop with Points</string>
+    <string name="earn_points">Earn Points</string>
+
+    <bool name="isTabletDevice">false</bool>
+
+    <!-- Feeds & Activity Filter Menu -->
+    <string name="feed_filter_menu_by_type">FILTER BY TYPE</string>
+    <string name="feed_filter_menu_everything">Everything</string>
+    <string name="feed_filter_menu_thoughts">Thoughts</string>
+    <string name="feed_filter_menu_videos">Videos</string>
+    <string name="feed_filter_menu_photos">Photos</string>
+    <string name="feed_filter_menu_likes">Likes</string>
+    <string name="feed_filter_menu_trade_request">Trade requests</string>
+    <string name="feed_filter_menu_by_deck">FILTER BY DECK</string>
+
+    <!-- Konnect.xml -->
+    <string name="konnect_category_result">There is no result for your search.</string>
+    <string name="konnect_category_specials">We\'re sorry, there are currently no %s selections in your area.</string>
+    <string name="konnect_category_title">Konnect</string>
+    <string name="konnect_category_question">What are you looking for?</string>
+    <string name="konnect_current_location">Current Location</string>
+    <string name="konnect_specials">Specials</string>
+    <string name="konnect_celebrites">Brand/Celebrities</string>
+    <string name="konnect_events">Events</string>
+    <string name="konnect_music">Music</string>
+    <string name="konnect_cstore">Fuel/C-Store</string>
+    <string name="konnect_free_stuff">Free Stuff</string>
+    <string name="konnect_coupon">Coupons</string>
+    <string name="konnect_mykard">MY KARDS</string>
+    <string name="konnect_people">People</string>
+    <string name="konnect_food">Food</string>
+    <string name="konnect_nightlife">Nightlife</string>
+    <string name="konnect_entertaiment">Entertainment</string>
+    <string name="konnect_coffee">Coffee</string>
+    <string name="konnect_shopping">Shopping</string>
+    <string name="error_message">Sorry, there\'s an error occurred</string>
+    <string name="get_direction">Get Directions</string>
+    <string name="konnect_business">Business</string>
+    <string name="konnect_Done">Done</string>
+
+    <!-- menu options -->
+    <string name="trade_pending">PENDING</string>
+
+    <!-- trade.xml -->
+    <string name="view_kard">View Kard</string>
+    <string name="trade">Trade</string>
+    <string name="trade_instruction">Swipe up/tap to send trade</string>
+    <string name="sending_request">Kard trading</string>
+
+    <!-- sign_up_24.xml -->
+    <string name="join_cap">JOIN</string>
+    <string name="email_exist_notice">Sorry, the email address you are using is already registered.</string>
+    <string name="kard_setting">KARD SETTINGS</string>
+    <string name="private_uppercase">PRIVATE</string>
+    <string name="public_uppercase">PUBLIC</string>
+    <string name="yes_upbercase">YES</string>
+    <string name="no_upbercase">NO</string>
+    <string name="show_connections">SHOW KONNECTIONS</string>
+    <string name="kard_details_fields_require_note">Please enter your first name and last name. They are required to make your VisiKard</string>
+    <string name="firstkard_private_note">This kard is active, you cannot change its privacy settings</string>
+
+    <!-- Message -->
+    <string name="item_comment">Comment</string>
+
+    <!-- RTUI changes -->
+    <string name="contact_form">Contact Form</string>
+    <string name="preferred_contact_option">Preferred Contact Option</string>
+    <string name="preferred_time_of_day">Preferred Time of Day</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip</string>
+    <string name="morning">Morning</string>
+    <string name="noon">Noon</string>
+    <string name="evening">Evening</string>
+    <string name="are_you_sure_you_want_to_redeem">Are you sure you want to redeem ?</string>
+    <string name="would_you_like_an_eReceipt">Would you like an eReceipt ?</string>
+    <string name="you_are_a_coupon_rock_star">You are a Coupon Rock Star.\nNow brag to friends and family.</string>
+    <string name="later">Later</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rtui_contact_default_address">1000 Abernathy RD NE, Suite 1550 Atlanta, GA 30328</string>
+    <string name="rtui_contact_default_city">Atlanta</string>
+    <string name="rtui_contact_default_state">GA</string>
+    <string name="rtui_contact_default_zip">30328</string>
+    <string name="rtui_contact_default_country">US</string>
+    <string name="rtui_contact_default_coordinate">33.9347767,-84.3545825</string>
+    <string name="contact_check_alert">Please make choice contact type</string>
+    <string name="time_check_alert">Please make choice contact time</string>
+    <string name="alert_post_contact_rtui_success">Send contact successfully.</string>
+    <string name="alert_post_contact_rtui_fail">Send contact fail.</string>
+
+    <!-- New home fragment -->
+    <string name="btn_post">Post</string>
+    <string name="txt_mile_short">mi</string>
+    <string name="btn_filter">Filter</string>
+    <string name="title_report">Report %1$s</string>
+    <string name="txt_report_image">image</string>
+    <string name="btn_dont_like">Inappropriate</string>
+    <string name="btn_spam">Spam</string>
+    <string name="msg_why_report">Why are you reporting this %1$s ?</string>
+    <string name="msg_why_report_2">Why are you reporting this ?</string>
+    <string name="msg_report_review">Reported for Review</string>
+    <string name="txt_last_update">Last update</string>
+    <string name="txt_more">More</string>
+    <string name="msg_email_not_match">Email does not match.</string>
+    <string name="msg_password_not_match">Password does not match.</string>
+    <string name="msg_please_enter_pswd_6_20">Please enter a password between 6 and 20 characters in length.</string>
+    <string name="msg_please_select_gender">Please select Male or Female above to continue.</string>
+    <string name="msg_invalid_birthday">Invalid birthday.</string>
+    <string name="err_bad_gateway">Bad gateway</string>
+    <string name="err_network_disable">No internet connection</string>
+    <string name="err_io_exception">IO exception</string>
+    <string name="err_bad_request">Bad request</string>
+    <string name="err_not_found">Not found</string>
+    <string name="err_method_not_allowed">Method not allowed</string>
+    <string name="err_internal_server_error">Internal server error</string>
+    <string name="err_request_timeout">Request timeout</string>
+    <string name="err_network_read_timeout">Network read timeout</string>
+    <string name="err_network_connect_timeout">Network connect timeout</string>
+    <string name="err_service_unavailable">Service unavailable</string>
+    <string name="err_gateway_timeout">Gateway timeout</string>
+    <string name="err_connection_new">Error in network connection. Please check your device network settings and try again.</string>
+    <string name="err_internal_server_new">Internal server error. Please try again later. If problem persists, please restart application.</string>
+
+    <!-- Opening -->
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in_with_facebook">Sign in with facebook</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="sign_up_with_facebook">Sign up with facebook</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="show_password">Show password</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthday">Birthday</string>
+    <string name="why_we_do_this"><u>Why we do this?</u></string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="invite_code">Invite code</string>
+    <string name="optional">Optional</string>
+    <string name="policy">By tapping below you are agreeing to the <u>Term of Service</u> and <u>Privacy Policy</u>. Your email and birthday will not be shown publicly. You can change your privacy settings anytime.</string>
+    <string name="tell_us_more_about_you"><b>Tell us more about you.</b>\n(optional)</string>
+    <string name="characters_60">60 characters</string>
+    <string name="public_profile">Public profile</string>
+    <string name="auto_trade">Auto trade</string>
+    <string name="show_location">Show location</string>
+    <string name="show_friends">Show friends</string>
+    <string name="take_photo">Take\nPhoto</string>
+    <string name="choose_existing_photo">Choose\nExisting Photo</string>
+    <string name="edit">Edit</string>
+    <string name="accept">Accept</string>
+    <string name="invite_friends">Invite friends</string>
+    <string name="why_we_do_this_content">Providing your birthday helps make sure that you get the true VisiKard experience for your age. Your birthday data is secured and will not be shown to any of your kard audience. For more details, please visit our Data Use Policy.</string>
+    <string name="can_not_public">Invite friends</string>
+    <string name="profile_preview">Profile preview</string>
+    <string name="skip">Skip</string>
+    <string name="ok_cap">OK</string>
+    <string name="twitter">Twitter</string>
+    <string name="do_you_want_to_register_visikard_with_your_facebook_account">Do you want to register Visikard with your facebook account ?</string>
+    <string name="we_cannot_get_profile_photo_from_your_fb_account">We cannot get profile photo from your fb account, please choose/take a new photo.</string>
+    <string name="we_are_trying_to_get_profile_photo_from_your_facebook_account">We\'re trying to get profile photo from your facebook account\nDo you want to choose/take a new photo?</string>
+
+    <!-- Walk through -->
+    <string name="dismiss">Dismiss</string>
+    
+    <string name="emoticons_1F604">(smile)</string>
+	<string name="emoticons_1F603">(smiley)</string>
+	<string name="emoticons_1F600">(laughing)</string>
+	<string name="emoticons_1F60A">(relaxed)</string>
+	<string name="emoticons_1F609">(smirk)</string>
+	<string name="emoticons_1F60D">(heart_eyes)</string>
+	<string name="emoticons_1F618">(kissing_heart)</string>
+	<string name="emoticons_1F61B">(stuck_out_tongue)</string>
+	<string name="emoticons_1F633">(flushed)</string>
+	<string name="emoticons_1F614">(relieved)</string>	
+	<string name="emoticons_1F612">(unamused)</string>
+	<string name="emoticons_1F61E">(disappointed)</string>
+	<string name="emoticons_1F623">(persevere)</string>
+	<string name="emoticons_1F622">(disappointed_relieved)</string>
+	<string name="emoticons_1F602">(joy)</string>
+	<string name="emoticons_1F62A">(sleepy)</string>
+	<string name="emoticons_1F630">(cold_sweat)</string>
+	<string name="emoticons_1F605">(sweat_smile)</string>
+	<string name="emoticons_1F613">(sweat)</string>
+	<string name="emoticons_1F629">(weary)</string>
+	<string name="emoticons_1F62B">(tired_face)</string>
+	<string name="emoticons_1F628">(fearful)</string>
+	<string name="emoticons_1F631">(scream)</string>
+	<string name="emoticons_1F621">(rage)</string>
+	<string name="emoticons_1F624">(triumph)</string>
+	<string name="emoticons_1F616">(confounded)</string>
+	<string name="emoticons_1F606">(satisfied)</string>
+	<string name="emoticons_1F60B">(yum)</string>
+	<string name="emoticons_1F637">(mask)</string>
+	<string name="emoticons_1F60E">(sunglasses)</string>
+	<string name="emoticons_1F634">(sleeping)</string>
+	<string name="emoticons_1F635">(dizzy_face)</string>
+	<string name="emoticons_1F632">(astonished)</string>
+	<string name="emoticons_1F61F">(worried)</string>
+	<string name="emoticons_1F626">(frowning)</string>
+	<string name="emoticons_1F627">(anguished)</string>
+	<string name="emoticons_1F47F">(smiling_imp)</string>
+	<string name="emoticons_1F62C">(grimacing)</string>
+	<string name="emoticons_1F610">(neutral_face)</string>
+	<string name="emoticons_1F615">(confused)</string>
+	<string name="emoticons_1F636">(no_mouth)</string>
+	<string name="emoticons_1F607">(innocent)</string>
+	<string name="emoticons_1F60F">(smirk)</string>
+	<string name="emoticons_1F44D">(thumbsup)</string>
+	<string name="emoticons_1F44E">(thumbsdown)</string>
+	<string name="emoticons_1F44C">(ok_hand)</string>
+	<string name="emoticons_1F44A">(punch)</string>
+	<string name="emoticons_270A">(fist)</string>
+	<string name="emoticons_1F64F">(pray)</string>
+	<string name="emoticons_1F4AA">(muscle)"</string>
 
 </resources>

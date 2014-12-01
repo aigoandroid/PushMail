@@ -4,13 +4,10 @@
     <dimen name="dimen_70_140_minus">-105dp</dimen>
     <dimen name="dimen_10_20_minus">-15dp</dimen>
     <dimen name="dimen_5_10_minus">-7dp</dimen>
-    <dimen name="dimen_05_1">0.7dp</dimen>
     <dimen name="dimen_1_2">2dp</dimen>
     <dimen name="dimen_2_4">3dp</dimen>
     <dimen name="dimen_3_6">4dp</dimen>
-    <dimen name="dimen_4_8">6dp</dimen>
     <dimen name="dimen_5_10">7dp</dimen>
-    <dimen name="dimen_6_12">9dp</dimen>
     <dimen name="dimen_7_15">11dp</dimen>
     <dimen name="dimen_10_20">15dp</dimen>
     <dimen name="dimen_12_24">18dp</dimen>
